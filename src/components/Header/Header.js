@@ -1,23 +1,16 @@
 import React, { Component } from 'react';
-
+import styles from './Header.css';
 import animate from 'animate.css';
 
-import styles from './Header.css';
 
-
-
-class Header extends Component {
-
+export default class Header extends Component {
 
 	render() {
-		console.log(animate);
-		const className = {styles.header} + 'pulse animated';
+		let googleStyle = `${styles.header} ${animate.bounceIn} ${animate.animated}`;
 		return (
-			<div className={className}>
+			<div className={googleStyle}>
 			<span>Google Font Demo<span role="img" aria-label="jsx-a11y/accessible-emoji">👍</span></span>
 			</div> 
 			);
 	}
 }
-
-export default Header;

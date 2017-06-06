@@ -1,17 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css?family=Futura:regular,bold,italic&subset=latin,latin-ext');
-
 .app {
   text-align: center;
+  height: 100%;
 }
 
 .appLogo {
   animation: appLogoAnimation infinite 20s linear;
-  height:;
 }
 
 .appHeader {
-  /*height: 150px;*/
   padding: 20px;
   font-family: 'Futura', italic;
   font-size: 60px;
