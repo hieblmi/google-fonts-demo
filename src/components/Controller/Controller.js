@@ -6,6 +6,7 @@ class Controller extends Component {
 
 
   render() {
+
     return (
       <div className={styles.controller}>
          That's the controller

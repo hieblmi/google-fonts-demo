@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Futura:regular,bold,italic&subset=latin,latin-ext');
+/*@import url('https://fonts.googleapis.com/css?family=Futura:regular&subset=latin,latin-ext');*/
 
 .header {
-  padding: 20px;
+  padding-left: 10%;
+  padding-top: 2%;
+  height:20vh;
   font-family: 'Futura';
   font-size: 40px;
   text-align: left;

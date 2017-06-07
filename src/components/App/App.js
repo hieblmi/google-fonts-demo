@@ -3,26 +3,34 @@ import Header from '../Header/Header.js'
 import Controller from '../Controller/Controller.js'
 import View from '../View/View.js'
 import styles from './App.css';
+import bootstrap from '../../../node_modules/bootstrap/dist/css/bootstrap.css'
 
-import {Col, Row, Grid} from 'react-bootstrap';
+let {Col, Row, Grid} = require('react-bootstrap');
 const colorSchemas = require('../../data/colorSchemas').default;
 
 
 class App extends Component {
 
   render() {
+
+    let container = `${bootstrap.container}`;
+    let rowStyle = `${bootstrap.row}`;
+    let controllerStyle = `${bootstrap['col-xs-6']}`;
+    let viewStyle = `${bootstrap['col-xs-6']}`;
+
     return (
-      <div style={colorSchemas.combos[3]} className={styles.app}>
+      <div style={colorSchemas.combos[1]} className={styles.app}>
       <Header />
-      <Controller />
-      <Grid>
-      <Row>
-      <Col xs={1} md={1} style={{border: '1px green solid'}}>asdf</Col>
-      <Col xs={1} md={1} style={{border: '1px black solid'}}>fdsa</Col>
-      <Col xs={1} md={1} style={{border: '1px blue solid'}}>asdf</Col>
-      </Row>
-      </Grid>
-      <View /> 
+      <div className={container} stlye={{height:'80vh'}}>
+        <div className={rowStyle}>
+            <div className={controllerStyle}>
+              <Controller />
+            </div>  
+            <div className={viewStyle}>
+              <View />
+            </div>
+          </div>
+        </div>
       </div>
       );
   }

@@ -1,21 +1,8 @@
 
 .app {
   text-align: center;
-  height: 100%;
+  width:100%;
+  min-height:100%;
+  position: relative;
 }
 
-.appLogo {
-  animation: appLogoAnimation infinite 20s linear;
-}
-
-.appHeader {
-  padding: 20px;
-  font-family: 'Futura', italic;
-  font-size: 60px;
-  text-align: left;
-}
-
-@keyframes appLogoAnimation {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
