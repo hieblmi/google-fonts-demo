@@ -7,7 +7,7 @@ const colorSchemas = {
 		},
 		{	// pink - blue
 			color: '#fd2cd6',
-			background: '#1000ff'
+			background: '#1000ff',
 		},	
 		{ 	// pink - turquoise
 			color: '#fd2cd6',
