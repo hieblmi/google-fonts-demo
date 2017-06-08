@@ -9,7 +9,7 @@ export default class Header extends Component {
 		let googleStyle = `${styles.header} ${animate.bounceIn} ${animate.animated}`;
 		return (
 			<div className={googleStyle}>
-			<span>Google Font Demo</span>
+			<span>Font Demo with ReactJS</span>
 			</div> 
 			);
 	}

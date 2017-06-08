@@ -19,9 +19,9 @@ class App extends Component {
     let viewStyle = `${bootstrap['col-xs-6']}`;
 
     return (
-      <div style={colorSchemas.combos[1]} className={styles.app}>
+      <div style={colorSchemas.combos[4]} className={styles.app}>
       <Header />
-      <div className={container} stlye={{height:'80vh'}}>
+      <div className={container} style={{height:'80vh'}}>
         <div className={rowStyle}>
             <div className={controllerStyle}>
               <Controller />

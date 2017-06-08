@@ -1,9 +1,9 @@
-/*@import url('https://fonts.googleapis.com/css?family=Futura:regular&subset=latin,latin-ext');*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&effect=anaglyph');
 
 .header {
-	padding-top: 5%;
-  padding-bottom: 8%;
-  font-family: 'Futura';
-  font-size: 40px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6em;
   text-align: center;
 }
